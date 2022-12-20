@@ -1,0 +1,7 @@
+cores pirmairias: 
+	amarelo/azul/vermelho
+cores secundarias:
+	laranja/roxo/verde
+cores tercearias:
+	amarelo-esverdiado/amarelo-alaranjado/vermelho-alaranjado/
+	vermelho-arroxeado/azul-aroxeado/azul-esverdeado
