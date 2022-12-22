@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: 'Courier', monospace;
+        }
+        table{
+            padding: 10px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+        }
+     
+        
+        .lwork{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="lnome">
+            <col class="lsexo">
+            <col class="lidade">
+            <col class="lwork"> 
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Pedreiro</td>
+
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Esritor</td>
+        </tr>
+        <tr>
+            <td>Nathali</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Amor</td>
+
+        </tr>
+    </table>
+</body>
+</html>
