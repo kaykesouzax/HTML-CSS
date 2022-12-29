@@ -1,0 +1,1 @@
+Esse e um arquivo de test i dont't know PHP
