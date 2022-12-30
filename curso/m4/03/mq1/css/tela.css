@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* ESTILO PARA TELAS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: courier;
+    font-size: 1em;
+
+}
